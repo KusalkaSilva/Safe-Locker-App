@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "60990116782",
+    "firebase_url": "https://safelocker-2e4ca.firebaseio.com",
+    "project_id": "safelocker-2e4ca",
+    "storage_bucket": "safelocker-2e4ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60990116782:android:8e1eaf31b2302ba6b3ae3f",
+        "android_client_info": {
+          "package_name": "com.app.appvault"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60990116782-audgd28hui8og291srmb06mpf410hdvk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC882XNw-_iHq8-IUEDMXDuGYmXT_o7giY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60990116782-audgd28hui8og291srmb06mpf410hdvk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

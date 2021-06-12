@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:layout_width="140dp"
+    android:layout_height="140dp"
+    android:id="@+id/recy_itm">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <ImageView
+        android:id="@+id/imgSelect"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignRight="@id/imageView"
+        android:layout_alignBottom="@id/imageView"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/ic_select" />
+</RelativeLayout>

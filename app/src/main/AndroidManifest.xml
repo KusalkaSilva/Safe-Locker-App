@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.appvault">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!--<activity android:name=".SplashScreenActivity"-->
+        <!--android:theme="@style/Theme.AppCompat.NoActionBar"></activity>-->
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:label="Forgot Password" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="Settings" />
+        <activity
+            android:name=".QuestionActivity"
+            android:label="Security Questions" />
+        <!-- <activity android:name=".MainActivity" /> -->
+        <activity
+            android:name=".VideoViewerActivity"
+            android:label="Video Viewer" />
+        <activity
+            android:name=".VideoTrashActivity"
+            android:label="Videos - Trash" />
+        <activity
+            android:name=".ImageViewerActivity"
+            android:label="Photo Viewer" />
+        <activity
+            android:name=".ImageTrashActivity"
+            android:label="Photos - Trash" />
+        <activity
+            android:name=".FaudActivity"
+            android:label="Break-in Alerts" />
+        <activity
+            android:name=".VideoActivity"
+            android:label="Videos" />
+        <activity
+            android:name=".ImageActivity"
+            android:label="Photos" />
+        <activity
+            android:name=".CustomPinActivity"
+            android:label="Secure PIN" />
+        <activity
+            android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SplashScreenActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
